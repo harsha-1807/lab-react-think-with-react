@@ -28,6 +28,8 @@ function ReactContainer() {
   );
 }
 
+
+
 // iteration 3
 
 class KalviumContainer extends React.Component {
@@ -35,8 +37,8 @@ class KalviumContainer extends React.Component {
     return React.createElement(
       "div",
       { id: "h1-tag" },
-      "Hello!",
-      React.createElement("div", null, "Welcome to react")
+      "Hey Kalvians!",
+      React.createElement("div", null, "Lets rock and roll with classes")
     );
   }
 }
